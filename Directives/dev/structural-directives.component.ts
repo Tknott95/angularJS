@@ -1,5 +1,6 @@
 import {Component} from 'angular2/core';
 import {HighlightDirective} from "./highlight.directive";
+import {UnlessDirective} from "./unless.directive";
 
 @Component({
     selector: 'my-structural-directives',
@@ -40,8 +41,22 @@ import {HighlightDirective} from "./highlight.directive";
         </div>
     </section>
 
+    <section class="directive">
+        <h2>Custom Directive: *myUnless</h2>
+        <div>
+            Enter true or false
+            <br>
+            <input type="text" #condition (keyup)="0">
+        </div>
+        <div *myUnless="condition.value != 'false'">
+        <br>
+        Only shown if 'false' was entered
+        </div>
+    </section>
+
 
     `,
+    directives: [UnlessDirective]
 
 
 })
