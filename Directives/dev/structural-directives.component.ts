@@ -36,7 +36,7 @@ import {HighlightDirective} from "./highlight.directive";
             <template [ngSwitchWhen]="'red'"><span style="color: red">Color is Red</span></template>
             <template [ngSwitchWhen]="'blue'"><span style="color: blue">Color is Blue</span></template>
             <template [ngSwitchWhen]="'green'"><span style="color: green">Color is Green</span></template>
-            <template [ngSwitchDefault><span style="color: pink">Don't now that color</span></template>
+            <template ngSwitchDefault><span style="color: pink">Invalid or Null entry!</span></template>
         </div>
     </section>
 
