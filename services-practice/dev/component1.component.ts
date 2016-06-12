@@ -10,6 +10,7 @@ import {LoggingService} from "./services/logging.service";
 
     `,
     providers: [LoggingService]
+
 })
 
 export class Component1Component {
