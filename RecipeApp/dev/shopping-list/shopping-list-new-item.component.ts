@@ -1,5 +1,6 @@
-import {Component, EventEmitter} from 'angular2/core';
+import {Component} from 'angular2/core';
 import {ListItem} from "../list-item";
+import {MyShoppingListService} from "./shopping-list.service";
 
 
 @Component({
@@ -24,9 +25,11 @@ import {ListItem} from "../list-item";
 
 export class ShoppingListNewItemComponent {
     item = {name: '', amount: 0}; //item binding with two way db up top
-    itemAdded = new EventEmitter<ListItem>();
+
+
+    constructor(private _shoppingListService: MyShoppingListService) {}
 
     onClick() {
-        this.itemAdded.emit(this.item);
+        this._shoppingListService.insertItem(this.item);
     }
 }
