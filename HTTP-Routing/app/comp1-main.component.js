@@ -24,7 +24,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 Comp1MainComponent = __decorate([
                     core_1.Component({
                         selector: 'comp1-main',
-                        template: "\n    <h6>thi is my main route</h6>\n\n\n"
+                        template: "\n    <h6>this is my main route</h6>\n\n\n"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], Comp1MainComponent);
@@ -35,4 +35,4 @@ System.register(['angular2/core'], function(exports_1, context_1) {
     }
 });
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXAxLW1haW4uY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O1lBV0E7Z0JBQUE7Z0JBRUEsQ0FBQztnQkFYRDtvQkFBQyxnQkFBUyxDQUFDO3dCQUNQLFFBQVEsRUFBRSxZQUFZO3dCQUN0QixRQUFRLEVBQUUsMkNBSWI7cUJBQ0EsQ0FBQzs7c0NBQUE7Z0JBSUYseUJBQUM7WUFBRCxDQUZBLEFBRUMsSUFBQTtZQUZELG1EQUVDLENBQUEiLCJmaWxlIjoiY29tcDEtbWFpbi5jb21wb25lbnQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSAnYW5ndWxhcjIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICAgIHNlbGVjdG9yOiAnY29tcDEtbWFpbicsXG4gICAgdGVtcGxhdGU6IGBcbiAgICA8aDY+dGhpIGlzIG15IG1haW4gcm91dGU8L2g2PlxuXG5cbmBcbn0pXG5cbmV4cG9ydCBjbGFzcyBDb21wMU1haW5Db21wb25lbnR7XG5cbn0iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXAxLW1haW4uY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O1lBV0E7Z0JBQUE7Z0JBRUEsQ0FBQztnQkFYRDtvQkFBQyxnQkFBUyxDQUFDO3dCQUNQLFFBQVEsRUFBRSxZQUFZO3dCQUN0QixRQUFRLEVBQUUsNENBSWI7cUJBQ0EsQ0FBQzs7c0NBQUE7Z0JBSUYseUJBQUM7WUFBRCxDQUZBLEFBRUMsSUFBQTtZQUZELG1EQUVDLENBQUEiLCJmaWxlIjoiY29tcDEtbWFpbi5jb21wb25lbnQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0NvbXBvbmVudH0gZnJvbSAnYW5ndWxhcjIvY29yZSc7XG5cbkBDb21wb25lbnQoe1xuICAgIHNlbGVjdG9yOiAnY29tcDEtbWFpbicsXG4gICAgdGVtcGxhdGU6IGBcbiAgICA8aDY+dGhpcyBpcyBteSBtYWluIHJvdXRlPC9oNj5cblxuXG5gXG59KVxuXG5leHBvcnQgY2xhc3MgQ29tcDFNYWluQ29tcG9uZW50e1xuXG59Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
