@@ -46,4 +46,16 @@ export class AppComponent {
 		);
 	}
 
+    onGetPosts(){
+        this._dataService.getData()
+        .subscribe(
+            data => {
+                console.log(data);
+                this.response = JSON.stringify(data);
+
+            },
+            error => console.error(error)
+        )
+    }
+
 }
